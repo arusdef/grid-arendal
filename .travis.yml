@@ -22,3 +22,7 @@ notifications:
     on_failure: change
     on_success: never
 
+deploy:
+  provider: heroku
+  api_key:
+    secure: "4678400d-dbf1-489b-92aa-4096a42669e2"
